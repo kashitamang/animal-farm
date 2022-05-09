@@ -1,13 +1,13 @@
 import { findById } from '../utils.js';
 import { animals } from '../data.js';
 
-console.log('hello from animals.js');
+//console.log('hello from animals.js');
 
 const params = new URLSearchParams(window.location.search);
-console.log(params.get('id'));
+//console.log(params.get('id'));
 
 const animal = findById(params.get('id'), animals);
-console.log(animal);
+//console.log(animal);
 
 const animalName = document.getElementById('animal-name');
 animalName.textContent = animal.name;
