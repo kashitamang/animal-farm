@@ -38,10 +38,15 @@ Background Image by <a href="https://pixabay.com/users/openclipart-vectors-30363
 
 
 To Do
--create animal-detail folder 
--create animal-detail.js 
-    -console.log in live server to confirm connection
--create index.html in 5 format
-    -link to animal-detail.js from html
-    -create Dog Detail page header and h2 eleent with id="animal-name"
-    
+✅ create animal-detail folder 
+✅ create animal-detail.js 
+    ✅ console.log in live server to confirm connection
+✅ create index.html in 5 format
+    ✅ link to animal-detail.js from html
+    ✅ create Dog Detail page header and h2 element with id="animal-name"
+-render animal function in utils
+-find by ID function in utils
+-animals function in animals.js
+-import animals fnction and render fuction into app.js 
+-creaet animalLinks variable and get element by ID of 'animal-links'
+-run for let of loop, call render animal to make each animal detail page and append li to animalLinks
