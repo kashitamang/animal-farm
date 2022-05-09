@@ -35,3 +35,18 @@ For this deliverable, you have been given a working app that shows a list of ani
 ### Image Attribution
 
 Background Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=147828">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=147828">Pixabay</a>
+
+
+To Do
+✅ create animal-detail folder 
+✅ create animal-detail.js 
+    ✅ console.log in live server to confirm connection
+✅ create index.html in 5 format
+    ✅ link to animal-detail.js from html
+    ✅ create Dog Detail page header and h2 element with id="animal-name"
+-render animal function in utils
+-find by ID function in utils
+-animals function in animals.js
+-import animals fnction and render fuction into app.js 
+-creaet animalLinks variable and get element by ID of 'animal-links'
+-run for let of loop, call render animal to make each animal detail page and append li to animalLinks
